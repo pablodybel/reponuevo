@@ -1,0 +1,64 @@
+*{padding: 0%;
+margin: 0%;}
+
+
+
+.titulo {position: relative;
+    h1 {position: absolute;
+    color: antiquewhite;
+    font-size: 140px;
+    font-family: 'Tourney', cursive;
+    left: 60px;
+    top: 60px;}
+    p {position: absolute;
+    color: antiquewhite;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 70px;
+    left: 300px; top: 500px;}
+    
+    img {height: 700px;
+        width: 100%;
+    }
+}
+
+main div h3 {background-color: rgb(17, 16, 16) ;}
+
+.contenedor {display: flex;
+    justify-content: center;  
+    background-color: rgb(17, 16, 16);
+
+    .contenedorTexto {
+    padding: 2px 16px;
+    background-color: #737373;    
+        h4 {text-transform: capitalize;
+            text-align: center;
+            color: aliceblue;
+           }
+        p {text-align: center;
+        color: aliceblue;}   
+
+    }   
+
+    .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: auto;
+    margin-bottom: 10px;
+        img {
+            width: 400px;}
+    }
+      
+
+}
+
+// footer
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+
+
