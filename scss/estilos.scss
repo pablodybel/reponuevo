@@ -2,7 +2,7 @@
 margin: 0%;}
 
 
-
+// index ---HOME---
 .titulo {position: relative;
     h1 {position: absolute;
     color: antiquewhite;
@@ -21,7 +21,6 @@ margin: 0%;}
     }
 }
 
-main div h3 {background-color: rgb(17, 16, 16) ;}
 
 .contenedor {display: flex;
     justify-content: center;  
@@ -62,3 +61,73 @@ main div h3 {background-color: rgb(17, 16, 16) ;}
 }
 
 
+// // Seccion quinesSomos
+
+.presentacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  
+  .presentacion__card {
+    width: 40%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px;
+  } 
+  .presentacion__card img {
+    max-width: 100%;
+  }
+  .presentacion__texto {
+    padding: 0 20px 20px;
+    h3 {
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;}
+  }
+}
+
+// Seccion nuestrosTrabajos
+
+#titulogaleria {position: relative;}
+
+    img {
+        height: 600px;
+        width: 100%;}
+    h2 {
+        position: absolute;
+        color:white;
+        top: 50px;
+        font-family: 'Shadows Into Light';
+        font-size: 140px;
+        margin-left: 15px;}
+
+.galeria {
+     display: flex;
+     justify-content:center;
+
+    &__fotos {width: 400px;
+    height: 400px;    
+    padding: 3px;
+    }
+    }    
+
+// seccion contacto
+
+.contenedorContacto {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(70deg, black, white);
+
+    img {
+    width: 600px;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;}
+
+    p {font-size: 50px;
+        font-family: 'Shadows Into Light', cursive;
+    padding-left: 50px;}
+
+}

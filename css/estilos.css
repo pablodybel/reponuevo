@@ -22,9 +22,6 @@
     height: 700px;
     width: 100%; }
 
-main div h3 {
-  background-color: #111010; }
-
 .contenedor {
   display: flex;
   justify-content: center;
@@ -53,3 +50,59 @@ main div h3 {
   font-size: 15px;
   line-height: 24px;
   color: #737373; }
+
+.presentacion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .presentacion .presentacion__card {
+    width: 40%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px; }
+  .presentacion .presentacion__card img {
+    max-width: 100%; }
+  .presentacion .presentacion__texto {
+    padding: 0 20px 20px; }
+    .presentacion .presentacion__texto h3 {
+      font-size: 40px;
+      text-align: center;
+      font-family: 'Shadows Into Light', cursive; }
+
+#titulogaleria {
+  position: relative; }
+
+img {
+  height: 600px;
+  width: 100%; }
+
+h2 {
+  position: absolute;
+  color: white;
+  top: 50px;
+  font-family: 'Shadows Into Light';
+  font-size: 140px;
+  margin-left: 15px; }
+
+.galeria {
+  display: flex;
+  justify-content: center; }
+  .galeria__fotos {
+    width: 400px;
+    height: 400px;
+    padding: 3px; }
+
+.contenedorContacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(70deg, black, white); }
+  .contenedorContacto img {
+    width: 600px;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px; }
+  .contenedorContacto p {
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+    padding-left: 50px; }
