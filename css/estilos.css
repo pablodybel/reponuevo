@@ -106,6 +106,23 @@
     font-family: 'Shadows Into Light', cursive;
     padding-left: 50px; }
 
+.contenedorarticulos {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  border: solid 5px gray;
+  height: 100%;
+  background-color: antiquewhite; }
+  .contenedorarticulos .imgarticulo {
+    width: 90%; }
+  .contenedorarticulos h2 {
+    font-size: 60px;
+    padding: 15px;
+    color: #8400ff;
+    font-family: 'Shadows Into Light', cursive; }
+  .contenedorarticulos p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
 @media only screen and (max-width: 600px) {
   .titulo {
     position: relative; }

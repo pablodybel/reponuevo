@@ -132,7 +132,21 @@ margin: 0%;}
     padding-left: 50px;}
 
 }
+.contenedorarticulos {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        border: solid 5px gray;
+        height: 100%;
+        background-color: antiquewhite;
 
+
+        .imgarticulo {width: 90%;}      
+        h2 {font-size: 60px; padding: 15px;
+        color: rgb(132, 0, 255);
+        font-family: 'Shadows Into Light', cursive;}
+        p {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    }  
 
 
 // media Query
@@ -552,7 +566,7 @@ padding-right: 30px;}
         background-color: antiquewhite;
 
 
-        .imgarticulo {width: 90%;}      
+        .imgarticulo {width: 400px;}      
         h2 {font-size: 60px; padding: 15px;
         color: rgb(132, 0, 255);
         font-family: 'Shadows Into Light', cursive;}
