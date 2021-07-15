@@ -40,6 +40,7 @@ margin: 0%;}
 
     .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: #26272b;
     transition: 0.3s;
     width: auto;
     margin-bottom: 10px;
@@ -61,7 +62,7 @@ margin: 0%;}
 }
 
 
-// // Seccion quinesSomos
+// // Seccion quienesSomos
 
 .presentacion {
     display: flex;
@@ -89,7 +90,7 @@ margin: 0%;}
 
 // Seccion nuestrosTrabajos
 
-#titulogaleria {position: relative;}
+#titulogaleria {position: relative;
 
     img {
         height: 600px;
@@ -101,7 +102,7 @@ margin: 0%;}
         font-family: 'Shadows Into Light';
         font-size: 140px;
         margin-left: 15px;}
-
+}    
 .galeria {
      display: flex;
      justify-content:center;
@@ -130,4 +131,431 @@ margin: 0%;}
         font-family: 'Shadows Into Light', cursive;
     padding-left: 50px;}
 
+}
+
+
+
+// media Query
+
+@media only screen and (max-width:600px) { 
+    .titulo {position: relative;
+        h1 {position: absolute;
+        color: antiquewhite;
+        font-size: 80px;
+        font-family: 'Tourney', cursive;
+        left: 60px;
+        top: 60px;}
+        p {position: absolute;
+        color: antiquewhite;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 40px;
+        left: 100px; top: 500px;}
+        
+        img {height: 700px;
+            width: 100%;
+        }
+    }
+
+    .contenedor {display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        background-color: rgb(17, 16, 16);
+    
+        .contenedorTexto {
+        padding: 2px 16px;
+        background-color: #737373;    
+            h4 {text-transform: capitalize;
+                text-align: center;
+                color: aliceblue;
+               }
+            p {text-align: center;
+            color: aliceblue;}   
+    
+        }   
+    
+        .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border: #26272b;
+        transition: 0.3s;
+        width: auto;
+        margin-bottom: 10px;
+            img {
+                width: 400px;}
+        }
+          
+    
+    }
+
+    .presentacion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+      
+      .presentacion__card {
+        width: 80%;
+        margin: 10px;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 6px 0px;
+      } 
+      .presentacion__card img {
+        max-width: 100%;
+      }
+      .presentacion__texto {
+        padding: 0 20px 20px;
+        h3 {
+            font-size: 40px;
+            text-align: center;
+            font-family: 'Shadows Into Light', cursive;}
+      }
+
+}
+    #titulogaleria {
+        position: relative;
+
+        img {
+        height: 600px;
+        width: 100%;}
+        h2 {
+        position: absolute;
+        color:white;
+        top: 50px;
+        font-family: 'Shadows Into Light';
+        font-size: 100px;
+        margin-left: 15px;}
+        } 
+    .galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+
+    &__fotos {width: 400px;
+    height: 400px;    
+    padding: 3px;
+    }
+}
+
+.contenedorContacto {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(70deg, black, white);
+
+    img {
+    width: 100%;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;}
+
+    p {font-size: 50px;
+        font-family: 'Shadows Into Light', cursive;
+    padding-left: 50px;
+padding-right: 30px;}
+// seccion novedades
+}
+.contenedorarticulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    border: solid 5px gray;
+    height: 100%;
+    background-color: antiquewhite;
+
+
+    .imgarticulo {width: 90%;}      
+    h2 {font-size: 60px; padding: 15px;
+    color: rgb(132, 0, 255);
+    font-family: 'Shadows Into Light', cursive;}
+    p {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+}    
+}
+
+@media only screen and (min-width:600px) and (max-width: 991px) { 
+    .titulo {position: relative;
+        h1 {position: absolute;
+        color: antiquewhite;
+        font-size: 100px;
+        font-family: 'Tourney', cursive;
+        left: 60px;
+        top: 60px;}
+        p {position: absolute;
+        color: antiquewhite;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 70px;
+        left: 100px; top: 500px;}
+        
+        img {height: 700px;
+            width: 100%;
+        }
+    }
+
+    .contenedor {display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        background-color: rgb(17, 16, 16);
+    
+        .contenedorTexto {
+        padding: 2px 16px;
+        background-color: #737373;    
+            h4 {text-transform: capitalize;
+                text-align: center;
+                color: aliceblue;
+               }
+            p {text-align: center;
+            color: aliceblue;}   
+    
+        }   
+    
+        .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border: #26272b;
+        transition: 0.3s;
+        width: auto;
+        margin-bottom: 10px;
+            img {
+                width: 400px;}
+        }
+          
+    
+    }
+
+    .presentacion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+      
+      .presentacion__card {
+        width: 80%;
+        margin: 10px;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 6px 0px;
+      } 
+      .presentacion__card img {
+        max-width: 100%;
+      }
+      .presentacion__texto {
+        padding: 0 20px 20px;
+        h3 {
+            font-size: 40px;
+            text-align: center;
+            font-family: 'Shadows Into Light', cursive;}
+      }
+// seccion trabajos
+}
+    #titulogaleria {
+        position: relative;
+
+        img {
+        height: 600px;
+        width: 100%;}
+        h2 {
+        position: absolute;
+        color:white;
+        top: 50px;
+        font-family: 'Shadows Into Light';
+        font-size: 100px;
+        margin-left: 15px;}
+        }
+    .galeria {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+
+    &__fotos {width: 100%;
+    height: 100%;    
+    padding: 3px;
+    }
+}
+// seccion contacto
+.contenedorContacto {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(70deg, black, white);
+
+    img {
+    width: 100%;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;}
+
+    p {font-size: 50px;
+        font-family: 'Shadows Into Light', cursive;
+    padding-left: 50px;
+padding-right: 30px;}
+
+}
+// seccion novedades
+.contenedorarticulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    border: solid 5px gray;
+    height: 100%;
+    background-color: antiquewhite;
+
+
+    .imgarticulo {width: 90%;}      
+    h2 {font-size: 60px; padding: 15px;
+    color: rgb(132, 0, 255);
+    font-family: 'Shadows Into Light', cursive;}
+    p {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+}    
+}
+
+@media only screen and (min-width:992px){
+
+    .titulo {position: relative;
+        h1 {position: absolute;
+        color: antiquewhite;
+        font-size: 140px;
+        font-family: 'Tourney', cursive;
+        left: 60px;
+        top: 60px;}
+        p {position: absolute;
+        color: antiquewhite;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 70px;
+        left: 300px; top: 500px;}
+        
+        img {height: 700px;
+            width: 100%;
+        }
+    }
+    
+    
+    .contenedor {display: flex;
+        justify-content: center;  
+        background-color: rgb(17, 16, 16);
+    
+        .contenedorTexto {
+        padding: 2px 16px;
+        background-color: #737373;    
+            h4 {text-transform: capitalize;
+                text-align: center;
+                color: aliceblue;
+               }
+            p {text-align: center;
+            color: aliceblue;}   
+    
+        }   
+    
+        .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border: #26272b;
+        transition: 0.3s;
+        width: auto;
+        margin-bottom: 10px;
+            img {
+                width: 100%;}
+        }
+          
+    
+    }
+    
+    // footer
+    .site-footer
+    {
+      background-color:#26272b;
+      padding:45px 0 20px;
+      font-size:15px;
+      line-height:24px;
+      color:#737373;
+    }
+    
+    
+    // // Seccion quinesSomos
+    
+    .presentacion {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+      
+      .presentacion__card {
+        width: 40%;
+        margin: 10px;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 6px 0px;
+      } 
+      .presentacion__card img {
+        max-width: 100%;
+      }
+      .presentacion__texto {
+        padding: 0 20px 20px;
+        h3 {
+            font-size: 40px;
+            text-align: center;
+            font-family: 'Shadows Into Light', cursive;}
+      }
+    }
+    
+    // Seccion nuestrosTrabajos
+    
+    #titulogaleria {position: relative;
+    
+        img {
+            height: 600px;
+            width: 100%;}
+        h2 {
+            position: absolute;
+            color:white;
+            top: 50px;
+            font-family: 'Shadows Into Light';
+            font-size: 140px;
+            margin-left: 15px;}
+        }
+    .galeria {
+         display: flex;
+         justify-content:center;
+
+        &__fotos {width: 100%;
+        height: 400px;    
+        padding: 3px;
+        }
+        }    
+    
+    // seccion contacto
+    
+    .contenedorContacto {
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(70deg, black, white);
+    
+        img {
+        width: 600px;
+        border-radius: 30px;
+        padding-bottom: 20px;
+        padding-top: 20px;}
+    
+        p {font-size: 50px;
+            font-family: 'Shadows Into Light', cursive;
+        padding-left: 50px;}
+    
+    }
+
+    // seccion novedades
+    .contenedorarticulos {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        border: solid 5px gray;
+        height: 100%;
+        background-color: antiquewhite;
+
+
+        .imgarticulo {width: 90%;}      
+        h2 {font-size: 60px; padding: 15px;
+        color: rgb(132, 0, 255);
+        font-family: 'Shadows Into Light', cursive;}
+        p {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    }    
 }

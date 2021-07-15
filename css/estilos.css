@@ -38,6 +38,7 @@
       color: aliceblue; }
   .contenedor .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: #26272b;
     transition: 0.3s;
     width: auto;
     margin-bottom: 10px; }
@@ -71,18 +72,16 @@
 
 #titulogaleria {
   position: relative; }
-
-img {
-  height: 600px;
-  width: 100%; }
-
-h2 {
-  position: absolute;
-  color: white;
-  top: 50px;
-  font-family: 'Shadows Into Light';
-  font-size: 140px;
-  margin-left: 15px; }
+  #titulogaleria img {
+    height: 600px;
+    width: 100%; }
+  #titulogaleria h2 {
+    position: absolute;
+    color: white;
+    top: 50px;
+    font-family: 'Shadows Into Light';
+    font-size: 140px;
+    margin-left: 15px; }
 
 .galeria {
   display: flex;
@@ -106,3 +105,348 @@ h2 {
     font-size: 50px;
     font-family: 'Shadows Into Light', cursive;
     padding-left: 50px; }
+
+@media only screen and (max-width: 600px) {
+  .titulo {
+    position: relative; }
+    .titulo h1 {
+      position: absolute;
+      color: antiquewhite;
+      font-size: 80px;
+      font-family: 'Tourney', cursive;
+      left: 60px;
+      top: 60px; }
+    .titulo p {
+      position: absolute;
+      color: antiquewhite;
+      font-family: 'Shadows Into Light', cursive;
+      font-size: 40px;
+      left: 100px;
+      top: 500px; }
+    .titulo img {
+      height: 700px;
+      width: 100%; }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #111010; }
+    .contenedor .contenedorTexto {
+      padding: 2px 16px;
+      background-color: #737373; }
+      .contenedor .contenedorTexto h4 {
+        text-transform: capitalize;
+        text-align: center;
+        color: aliceblue; }
+      .contenedor .contenedorTexto p {
+        text-align: center;
+        color: aliceblue; }
+    .contenedor .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      border: #26272b;
+      transition: 0.3s;
+      width: auto;
+      margin-bottom: 10px; }
+      .contenedor .card img {
+        width: 400px; }
+  .presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .presentacion .presentacion__card {
+      width: 80%;
+      margin: 10px;
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 6px 0px; }
+    .presentacion .presentacion__card img {
+      max-width: 100%; }
+    .presentacion .presentacion__texto {
+      padding: 0 20px 20px; }
+      .presentacion .presentacion__texto h3 {
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive; }
+  #titulogaleria {
+    position: relative; }
+    #titulogaleria img {
+      height: 600px;
+      width: 100%; }
+    #titulogaleria h2 {
+      position: absolute;
+      color: white;
+      top: 50px;
+      font-family: 'Shadows Into Light';
+      font-size: 100px;
+      margin-left: 15px; }
+  .galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .galeria__fotos {
+      width: 400px;
+      height: 400px;
+      padding: 3px; }
+  .contenedorContacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(70deg, black, white); }
+    .contenedorContacto img {
+      width: 100%;
+      border-radius: 30px;
+      padding-bottom: 20px;
+      padding-top: 20px; }
+    .contenedorContacto p {
+      font-size: 50px;
+      font-family: 'Shadows Into Light', cursive;
+      padding-left: 50px;
+      padding-right: 30px; }
+  .contenedorarticulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    border: solid 5px gray;
+    height: 100%;
+    background-color: antiquewhite; }
+    .contenedorarticulos .imgarticulo {
+      width: 90%; }
+    .contenedorarticulos h2 {
+      font-size: 60px;
+      padding: 15px;
+      color: #8400ff;
+      font-family: 'Shadows Into Light', cursive; }
+    .contenedorarticulos p {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; } }
+
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+  .titulo {
+    position: relative; }
+    .titulo h1 {
+      position: absolute;
+      color: antiquewhite;
+      font-size: 100px;
+      font-family: 'Tourney', cursive;
+      left: 60px;
+      top: 60px; }
+    .titulo p {
+      position: absolute;
+      color: antiquewhite;
+      font-family: 'Shadows Into Light', cursive;
+      font-size: 70px;
+      left: 100px;
+      top: 500px; }
+    .titulo img {
+      height: 700px;
+      width: 100%; }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #111010; }
+    .contenedor .contenedorTexto {
+      padding: 2px 16px;
+      background-color: #737373; }
+      .contenedor .contenedorTexto h4 {
+        text-transform: capitalize;
+        text-align: center;
+        color: aliceblue; }
+      .contenedor .contenedorTexto p {
+        text-align: center;
+        color: aliceblue; }
+    .contenedor .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      border: #26272b;
+      transition: 0.3s;
+      width: auto;
+      margin-bottom: 10px; }
+      .contenedor .card img {
+        width: 400px; }
+  .presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .presentacion .presentacion__card {
+      width: 80%;
+      margin: 10px;
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 6px 0px; }
+    .presentacion .presentacion__card img {
+      max-width: 100%; }
+    .presentacion .presentacion__texto {
+      padding: 0 20px 20px; }
+      .presentacion .presentacion__texto h3 {
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive; }
+  #titulogaleria {
+    position: relative; }
+    #titulogaleria img {
+      height: 600px;
+      width: 100%; }
+    #titulogaleria h2 {
+      position: absolute;
+      color: white;
+      top: 50px;
+      font-family: 'Shadows Into Light';
+      font-size: 100px;
+      margin-left: 15px; }
+  .galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .galeria__fotos {
+      width: 100%;
+      height: 100%;
+      padding: 3px; }
+  .contenedorContacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(70deg, black, white); }
+    .contenedorContacto img {
+      width: 100%;
+      border-radius: 30px;
+      padding-bottom: 20px;
+      padding-top: 20px; }
+    .contenedorContacto p {
+      font-size: 50px;
+      font-family: 'Shadows Into Light', cursive;
+      padding-left: 50px;
+      padding-right: 30px; }
+  .contenedorarticulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    border: solid 5px gray;
+    height: 100%;
+    background-color: antiquewhite; }
+    .contenedorarticulos .imgarticulo {
+      width: 90%; }
+    .contenedorarticulos h2 {
+      font-size: 60px;
+      padding: 15px;
+      color: #8400ff;
+      font-family: 'Shadows Into Light', cursive; }
+    .contenedorarticulos p {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; } }
+
+@media only screen and (min-width: 992px) {
+  .titulo {
+    position: relative; }
+    .titulo h1 {
+      position: absolute;
+      color: antiquewhite;
+      font-size: 140px;
+      font-family: 'Tourney', cursive;
+      left: 60px;
+      top: 60px; }
+    .titulo p {
+      position: absolute;
+      color: antiquewhite;
+      font-family: 'Shadows Into Light', cursive;
+      font-size: 70px;
+      left: 300px;
+      top: 500px; }
+    .titulo img {
+      height: 700px;
+      width: 100%; }
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    background-color: #111010; }
+    .contenedor .contenedorTexto {
+      padding: 2px 16px;
+      background-color: #737373; }
+      .contenedor .contenedorTexto h4 {
+        text-transform: capitalize;
+        text-align: center;
+        color: aliceblue; }
+      .contenedor .contenedorTexto p {
+        text-align: center;
+        color: aliceblue; }
+    .contenedor .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      border: #26272b;
+      transition: 0.3s;
+      width: auto;
+      margin-bottom: 10px; }
+      .contenedor .card img {
+        width: 100%; }
+  .site-footer {
+    background-color: #26272b;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373; }
+  .presentacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .presentacion .presentacion__card {
+      width: 40%;
+      margin: 10px;
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 6px 0px; }
+    .presentacion .presentacion__card img {
+      max-width: 100%; }
+    .presentacion .presentacion__texto {
+      padding: 0 20px 20px; }
+      .presentacion .presentacion__texto h3 {
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive; }
+  #titulogaleria {
+    position: relative; }
+    #titulogaleria img {
+      height: 600px;
+      width: 100%; }
+    #titulogaleria h2 {
+      position: absolute;
+      color: white;
+      top: 50px;
+      font-family: 'Shadows Into Light';
+      font-size: 140px;
+      margin-left: 15px; }
+  .galeria {
+    display: flex;
+    justify-content: center; }
+    .galeria__fotos {
+      width: 100%;
+      height: 400px;
+      padding: 3px; }
+  .contenedorContacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(70deg, black, white); }
+    .contenedorContacto img {
+      width: 600px;
+      border-radius: 30px;
+      padding-bottom: 20px;
+      padding-top: 20px; }
+    .contenedorContacto p {
+      font-size: 50px;
+      font-family: 'Shadows Into Light', cursive;
+      padding-left: 50px; }
+  .contenedorarticulos {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    border: solid 5px gray;
+    height: 100%;
+    background-color: antiquewhite; }
+    .contenedorarticulos .imgarticulo {
+      width: 90%; }
+    .contenedorarticulos h2 {
+      font-size: 60px;
+      padding: 15px;
+      color: #8400ff;
+      font-family: 'Shadows Into Light', cursive; }
+    .contenedorarticulos p {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; } }
